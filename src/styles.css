@@ -48,7 +48,7 @@ a:visited{
   color: #ccc;
 }
 .container {
-  max-width: 114rem;
+  max-width: 77%;
   margin: 0 auto;
 }
 .btn {
@@ -339,7 +339,7 @@ a:visited{
 .icons {
   position: absolute;
   bottom: 5%;
-  left: 13%;
+  left: 11.5%;
   color: #fff;
 }
 
@@ -355,12 +355,6 @@ a:visited{
 
 .icons span:hover {
   color: var(--c);
-}
-
-@media only screen and (max-width: 567px) {
-  .icons {
-    display: none;
-  }
 }
 
 /* About */
