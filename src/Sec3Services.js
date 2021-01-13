@@ -9,34 +9,33 @@ function Sec3Services() {
       <div className="services-center container">
         <div className="service" data-aos="fade-down" data-aos-duration="2000">
           <span>
-            <i className="fab fa-accusoft"></i>
+            <i className="fab fa-react"></i>
           </span>
-          <h2>Web Design</h2>
+          <h2>Web Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            exercitationem numquam porro asperiores neque architecto.
+            Using React, Redux, Javascript, CSS, HTML and versioning control.
           </p>
         </div>
 
         <div className="service" data-aos="fade-up" data-aos-duration="2000">
           <span>
-            <i className="fas fa-chart-line"></i>
+            <i className="fas fa-code"></i>
+
           </span>
-          <h2>Advertising</h2>
+          <h2>Software Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            exercitationem numquam porro asperiores neque architecto.
+            High knowledge in programming languages and databases (C# and SQL server).
           </p>
         </div>
 
         <div className="service" data-aos="fade-down" data-aos-duration="2000">
           <span>
-            <i className="fas fa-blender-phone"></i>
+            <i className="fas fa-chalkboard-teacher"></i>
           </span>
-          <h2>Apps Design</h2>
+          <h2>IT Support</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            exercitationem numquam porro asperiores neque architecto.
+            Software and hardware maintenance for laptops, desktop computers, tablets, tablet pc’s and iPad services.
+            Install and maintain networks, terminals and internet access points.
           </p>
         </div>
       </div>

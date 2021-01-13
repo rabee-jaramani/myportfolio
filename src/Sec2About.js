@@ -1,5 +1,6 @@
 import React from "react";
 import bg from "./images/bg.png";
+import RabeeCV from './CV/Rabee Aljaramani Web developer.pdf';
 function Sec2About() {
   return (
     <section className="section about" id="about">
@@ -26,7 +27,8 @@ function Sec2About() {
             I believe if I am given the chance to prove myself, that I will proof to be a valuable asset to your company that will go far and beyond to reach the goals of the organization.
 
           </p>
-          <a href="/" className="btn">
+
+          <a href={RabeeCV} className="btn" download="Rabee Aljaramani Web developer.pdf">
             Download CV
           </a>
         </div>

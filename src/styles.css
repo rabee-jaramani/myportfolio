@@ -509,12 +509,13 @@ a.btn:active {
 }
 
 .service h2 {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   margin-bottom: 1rem;
 }
 
 .service p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
   color: #f1f1f1;
 }
 
