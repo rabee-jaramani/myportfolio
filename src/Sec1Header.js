@@ -80,16 +80,24 @@ function Sec1Header() {
 
       <div className="icons">
         <span>
-          <i className="fab fa-linkedin"></i>
+          <a className="fab fa-linkedin"
+            href='https://www.linkedin.com/in/rabee-aljaramani-4b005b193/'
+            target="_blank"></a>
         </span>
         <span>
-          <i className="fab fa-facebook-f"></i>
+          <a className="fab fa-facebook-f"
+            href='https://www.facebook.com/rabee1988/'
+            target='_blank'></a>
         </span>
         <span>
-          <i className="fab fa-instagram"></i>
+          <a className="fab fa-instagram"
+            href='https://www.instagram.com/r_a_b_e_e__/'
+            target='_blank'></a>
         </span>
         <span>
-          <i className="fab fa-twitter"></i>
+          <a className="fab fa-github"
+            href='https://github.com/rabeexxxx'
+            target='_blank'></a>
         </span>
       </div>
     </header>
