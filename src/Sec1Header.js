@@ -1,22 +1,26 @@
 import React from "react";
 import bg from "./images/bg.png";
+import logo from './images/logo.png'
 function Sec1Header() {
   return (
     <header id="home" className="header">
       <nav className="nav">
         <div className="navigation container">
           <div className="logo">
-            <h1>
+       <img className='imglogo' src={logo} alt='/'/>
+            
+            {/* <h1>
               LOGO<span>.</span>
-            </h1>
+            </h1> */}
           </div>
 
           <div className="menu">
             <div className="top-nav">
               <div className="logo">
-                <h1>
+              <img className='imglogo' src={logo} alt='/'/>
+                {/* <h1>
                   LOGO<span>.</span>
-                </h1>
+                </h1> */}
               </div>
               <div className="close">
                 <i className="fas fa-times"></i>
@@ -72,7 +76,7 @@ function Sec1Header() {
         <a href="/">Hire me</a>
       </div>
 
-      <img className="banner" src={bg} alt="" />
+      <img className="banner img1" src={bg} alt="" />
 
       <div className="icons">
         <span>

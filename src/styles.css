@@ -85,8 +85,12 @@ li {
   background: #000;
   z-index: 1;
 }
-
-.header img {
+.imglogo{
+  padding: 0 !important;
+  width: 50px !important;
+  border-radius: 10px !important;
+}
+.header .img1 {
   position: absolute;
   right: 5%;
   bottom: 0;
@@ -99,29 +103,35 @@ li {
     min-height: 60vh;
   }
 
-  .header img {
+  .header .img1 {
     width: 50rem;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .header img {
+  .header .img1 {
     width: 40rem;
   }
 }
 
 @media only screen and (max-width: 567px) {
+  .imglogo{
+  
+    width: 35px !important;
+    
+  }
   .header {
     min-height: 100vh;
   }
 
-  .header img {
+  .header .img1 {
     width: 35rem;
   }
 }
 
 .nav {
-  padding: 1.6rem 0;
+  padding:  0;
+  padding-top: 5px;
 }
 
 .nav.fix-nav {
@@ -259,6 +269,7 @@ li {
   top: 50%;
   transform: translate(25%, -50%);
   color: #fff;
+  margin-left: 7%;
 }
 
 .hero h3 {
@@ -326,7 +337,7 @@ li {
 .icons {
   position: absolute;
   bottom: 5%;
-  left: 10%;
+  left: 13%;
   color: #fff;
 }
 

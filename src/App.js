@@ -6,21 +6,21 @@ import Sec4Skills from "./Sec4Skills";
 import Sec5Team from "./Sec5Team";
 import Sec6Contact from "./Sec6Contact";
 import Sec7Footer from "./Sec7Footer";
-import AOS from 'aos'
+import AOS from 'aos';
 import TypeIt from 'typeit'
 import gsap from 'gsap'
 import Glide from '@glidejs/glide'
 
 import "./styles.css";
+
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
-
   componentDidMount() {
     AOS.init();
-
+    
     const menu = document.querySelector(".menu");
     const navOpen = document.querySelector(".hamburger");
     const navClose = document.querySelector(".close");
@@ -62,7 +62,7 @@ class App extends React.Component {
 
         const id = e.target.getAttribute("href").slice(1);
         const element = document.getElementById(id);
-        const fixNav = navBar.classList.contains("fix-nav");
+        //const fixNav = navBar.classList.contains("fix-nav");
         let position = element.offsetTop - navHeight;
 
         window.scrollTo({
@@ -123,7 +123,7 @@ class App extends React.Component {
       x: -30,
       stagger: 0.2
     });
-
+    
     const glide = document.querySelector(".glide");
     if (glide)
       new Glide(glide, {
@@ -145,7 +145,7 @@ class App extends React.Component {
         }
       }).mount();
   }
-  componentDidUpdate() { }
+  componentDidUpdate() {}
   render() {
     return (
       <>
