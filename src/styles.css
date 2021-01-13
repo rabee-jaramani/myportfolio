@@ -130,6 +130,10 @@ a:visited{
   .header .img1 {
     width: 35rem;
   }
+  .container {
+    max-width: 98%;
+    margin: 0 auto;
+  }
 }
 
 .nav {
