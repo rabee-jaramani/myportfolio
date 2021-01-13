@@ -3,7 +3,7 @@ function Sec7Footer() {
   return (
     <footer>
       <p>
-        Created By <span>Rabee</span> | &copy; 2020 All rights reserved.
+        Created By <span>Rabee Aljaramani</span> | &copy; 2020 All rights reserved.
       </p>
     </footer>
   );
