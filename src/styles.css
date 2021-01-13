@@ -44,7 +44,9 @@ img {
 li {
   list-style: none;
 }
-
+a:visited{
+  color: #ccc;
+}
 .container {
   max-width: 114rem;
   margin: 0 auto;
@@ -750,7 +752,7 @@ footer p span {
 .fa-instagram:hover {
   color: rgb(255, 95, 255);
 }
-.fa-twitter:hover {
+.fa-github:hover {
   color: rgb(136, 227, 255);
 }
 .fa-linkedin:hover {
