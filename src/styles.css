@@ -334,6 +334,9 @@ a:visited{
   .hero h4 {
     font-size: 1.6rem;
   }
+  a:visited{
+    color: #ccc !important;
+  }
 }
 
 .icons {
