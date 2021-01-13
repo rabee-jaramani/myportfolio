@@ -7,8 +7,8 @@ function Sec1Header() {
       <nav className="nav">
         <div className="navigation container">
           <div className="logo">
-       <img className='imglogo' src={logo} alt='/'/>
-            
+            <img className='imglogo' src={logo} alt='/' />
+
             {/* <h1>
               LOGO<span>.</span>
             </h1> */}
@@ -17,7 +17,7 @@ function Sec1Header() {
           <div className="menu">
             <div className="top-nav">
               <div className="logo">
-              <img className='imglogo' src={logo} alt='/'/>
+                <img className='imglogo' src={logo} alt='/' />
                 {/* <h1>
                   LOGO<span>.</span>
                 </h1> */}
@@ -73,7 +73,7 @@ function Sec1Header() {
         <h4>
           And I'm <span id="type1"></span>
         </h4>
-        <a href="/">Hire me</a>
+        <a href="#contact">Hire me</a>
       </div>
 
       <img className="banner img1" src={bg} alt="" />
