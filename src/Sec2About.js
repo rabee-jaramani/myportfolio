@@ -50,7 +50,6 @@ class Sec2About extends React.Component {
         </span>
         <button onClick={this.myFunction} id="myBtn" className='btn-readmore'>Hello Joan</button><br/>
         </p>
-        
           <a href={RabeeCV} className="btn" download="Rabee Aljaramani Web developer.pdf">
             Download CV
           </a>
