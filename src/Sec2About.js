@@ -14,7 +14,7 @@ class Sec2About extends React.Component {
   
     if (dots.style.display === "none") {
       dots.style.display = "inline";
-      btnText.innerHTML = "Read more"; 
+      btnText.innerHTML = "Read moreeeeeeeeee"; 
       moreText.style.display = "none";
     } else {
       dots.style.display = "none";
