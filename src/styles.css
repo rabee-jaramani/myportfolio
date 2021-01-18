@@ -774,3 +774,6 @@ footer p span {
   transform: translateY(-3px);
   color: inherit;
 }
+.aboutme-p{
+text-align: justify;
+}
