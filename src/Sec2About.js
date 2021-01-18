@@ -38,11 +38,6 @@ class Sec2About extends React.Component {
             I'm <span id="type2"></span>
           </h1>
           <p className="aboutme-p">
-     
-    
-    
-    
-    
             Coming from an Informatics Engineering background and have 9+ years experience in the IT field, ranging from IT support to software development.
     Passionate about web development and seeking to grow in the role of a web developer by using my React, Redux, HTML and CSS skills to deliver coding excellence.
             I came from Syria where I studied to be a Computer Engineer because I believe this technology is the future of humanity and it will make our life as we dreamed about it long time ago where everything around us is controlled and automated.
