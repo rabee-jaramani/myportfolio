@@ -35,7 +35,7 @@ class Sec2About extends React.Component {
         </div>
         <div className="right" data-aos="fade-left" data-aos-duration="2000">
           <h1>
-            I'm Rabee <span id="type2"></span>
+            I'm <span id="type2"></span>
           </h1>
           <p className="aboutme-p">
             Coming from an Informatics Engineering background, I have extensive experience in IT fields.
