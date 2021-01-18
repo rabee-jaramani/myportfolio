@@ -48,7 +48,7 @@ class Sec2About extends React.Component {
             This journey has given me all the tools to always improve myself and the endurance to face and succeed in any challenge presented to me.
             I believe if I am given the chance to prove myself, that I will proof to be a valuable asset to your company that will go far and beyond to reach the goals of the organization.
         </span>
-        <button onClick={this.myFunction} id="myBtn" className='btn-readmore'>Read more</button><br/>
+        <button onClick={this.myFunction} id="myBtn" className='btn-readmore'>Hello Joan</button><br/>
         </p>
         
           <a href={RabeeCV} className="btn" download="Rabee Aljaramani Web developer.pdf">
