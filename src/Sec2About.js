@@ -37,7 +37,7 @@ class Sec2About extends React.Component {
           <h1>
             I'm Rabee a <span id="type2"></span>
           </h1>
-          <p>
+          <p className="aboutme-p">
             Coming from an Informatics Engineering background, I have extensive experience in IT fields.
             I come from Syria where I studied to be a Computer Engineer because I believe this technology is the future of humanity and it will make our life as we dreamed about it long time ago where everything around us is controlled and automated.
             I have always had a passion for learning new things and technologies.
