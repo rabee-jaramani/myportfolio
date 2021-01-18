@@ -53,12 +53,21 @@ function Sec4Skills() {
         <div className="right" data-aos="fade-left" data-aos-duration="2000">
           <h3>My creative skills and experience</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
-            tempora distinctio sed. Animi, doloribus est. Suscipit praesentium
-            tenetur libero eos! Suscipit voluptatem qui, nulla accusantium
-            deleniti nam recusandae officiis possimus at voluptate cupiditate
-            soluta nostrum deserunt consequuntur, ut quis eligendi? Quidem et
-            doloremque cupiditate veniam optio corporis voluptatum, animi nemo!
+            ◦ Web Programming & Design: JavaScript, HTML5, Bootstrap, CSS, jQuery,XML, React js, Redux,
+C#, C++, ASP.net mvc.
+◦ Database Tools: MongoDB and Microsoft SQL .
+◦ High knowledge in programming languages and networking.
+◦ Self-learning.
+◦ Operating systems: Windows (XP, 7, 8, 10), Microsoft Windows Server (2003, 2008, 2016), Mac OS, Android,
+iOS, Office Tools: Microsoft Office (2003, 2007, 2013, 2016, 2019) Access, Power Point, Word, Excel.
+◦ Computer devices, tablets, mobile phones, servers and networks.
+◦ Security cameras CCTV and IP cameras.
+◦ Teaching programming courses, information technology topics and computer usage.
+◦ Build meeting and class rooms for schools and universities (projectors, mirroring, smart boards
+◦ Data management.
+◦ Quality assurance for applications and devices.
+◦ Projects Management and IT planning to achieve the needs.
+
           </p>
           <a href="/" className="btn">
             Read more
