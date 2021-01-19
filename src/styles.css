@@ -105,17 +105,18 @@ a:visited{
 
 @media only screen and (max-width: 996px) {
   .header {
-    min-height: 60vh;
+    min-height: 100vh;
   }
 
   .header .img1 {
-    width: 50rem;
+    width: 50%;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .header .img1 {
-    width: 40rem;
+    width: 50%;
+    
   }
 }
 
@@ -130,7 +131,12 @@ a:visited{
   }
 
   .header .img1 {
-    width: 35rem;
+    width: 80%;
+    position: relative;
+    bottom: 0;
+    margin-top: 35%;
+  margin-left: 15%;
+  z-index: -1
   }
   .container {
     max-width: 98%;
@@ -320,13 +326,16 @@ a:visited{
 
 @media only screen and (max-width: 768px) {
   .hero h1 {
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+  .hero h3 {
+    font-size: 2rem;
   }
 }
 
 @media only screen and (max-width: 567px) {
   .hero {
-    top: 35%;
+    top: 19%;
     transform: translate(10%, -50%);
   }
 
