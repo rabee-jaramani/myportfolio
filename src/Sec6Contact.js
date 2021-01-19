@@ -34,13 +34,11 @@ function Sec6Contact() {
           data-aos="fade-down-right"
           data-aos-duration="2000"
         >
-          {/* <h2>Get in Touch</h2>
+          <h2>Get in Touch</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-            praesentium quibusdam ratione, cum ducimus minus iure saepe ipsum
-            repudiandae. Cum adipisci cumque dicta suscipit fuga aliquid
-            blanditiis quo quia vitae.
-          </p> */}
+            Thank you for your time viewing my portfolio and I will gladly provide any further information required. 
+Kindly find my contact details below or use the form to the right to send a message and I will reach out to you. 
+          </p> 
           <div>
             <span className="icon">
               <i className="fas fa-user"></i>
