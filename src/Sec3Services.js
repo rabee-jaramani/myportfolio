@@ -13,7 +13,7 @@ function Sec3Services() {
           </span>
           <h2>Web Development</h2>
           <p>
-            Using React, Redux, Javascript, CSS, HTML and versioning control.
+            Using React, Redux, Javascript, CSS, HTML and version control.
           </p>
         </div>
 
