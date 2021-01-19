@@ -84,7 +84,7 @@ a:visited{
 .header {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 107vh;
   background: #000;
   z-index: 1;
 }
@@ -97,8 +97,10 @@ a:visited{
   position: absolute;
   right: 5%;
   bottom: 0;
+  top:7%;
   width: 60rem;
   z-index: -1;
+  
 }
 
 @media only screen and (max-width: 996px) {
@@ -558,23 +560,38 @@ a.btn:active {
 }
 
 .skills-box .html {
-  width: 95%;
-}
-
-.skills-box .css {
-  width: 85%;
-}
-
-.skills-box .javascript {
   width: 90%;
 }
 
+.skills-box .css {
+  width: 81%;
+}
+
+.skills-box .javascript {
+  width: 79%;
+}
+
 .skills-box .nodejs {
-  width: 80%;
+  width: 65%;
 }
 
 .skills-box .mongodb {
-  width: 95%;
+  width: 75%;
+}
+.skills-box .sql {
+  width: 65%;
+}
+.skills-box .csharp {
+  width: 75%;
+}
+.skills-box .react {
+  width: 83%;
+}
+.skills-box .redux {
+  width: 80%;
+}
+.skills-box .bootstrap {
+  width: 83%;
 }
 
 .skills-box span {
@@ -747,6 +764,7 @@ footer p span {
 }
 .banner {
   border-radius: 400px;
+  
 }
 .fa-facebook-f:hover {
   color: rgb(52, 147, 255);
