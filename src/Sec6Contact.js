@@ -34,13 +34,13 @@ function Sec6Contact() {
           data-aos="fade-down-right"
           data-aos-duration="2000"
         >
-          <h2>Get in Touch</h2>
+          {/* <h2>Get in Touch</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
             praesentium quibusdam ratione, cum ducimus minus iure saepe ipsum
             repudiandae. Cum adipisci cumque dicta suscipit fuga aliquid
             blanditiis quo quia vitae.
-          </p>
+          </p> */}
           <div>
             <span className="icon">
               <i className="fas fa-user"></i>
