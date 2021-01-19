@@ -32,6 +32,7 @@ h3,
 h4 {
   font-weight: 500;
 }
+
 a {
   text-decoration: none;
   color: #ffffff;
@@ -382,6 +383,10 @@ a:visited{
   margin: 4rem 0 7rem 0;
   text-align: center;
 }
+.skill-title {
+  margin: 4rem 0 2rem 0;
+  text-align: center;
+}
 
 .title h1 {
   font-size: 3rem;
@@ -416,6 +421,7 @@ a:visited{
   line-height: 2;
   margin-bottom: 2rem;
   color: #333;
+
 }
 
 .right h1 span {
@@ -538,7 +544,6 @@ a.btn:active {
   color: #888;
   font-size: 500;
 }
-
 .skills-box .skills-ilt {
   width: 100%;
   position: relative;
@@ -703,7 +708,6 @@ a.btn:active {
 .form .right div input {
   flex: 1 1 50%;
 }
-
 .form textarea {
   width: 100%;
   resize: vertical;
@@ -759,6 +763,9 @@ footer p span {
 #more{
   display: none;  
 }
+#more1{
+  display: none;  
+}
 .btn-readmore{
   padding: 1rem 2rem;
   background-color: transparent;
@@ -775,5 +782,12 @@ footer p span {
   color: inherit;
 }
 .aboutme-p{
-text-align: justify;
+  text-align: justify;
+}
+.skills-list li{
+  list-style: circle;
+}
+.ul-skills li::before{
+content: '      -';
+white-space: pre;
 }
