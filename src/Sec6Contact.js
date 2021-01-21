@@ -82,8 +82,8 @@ Kindly find my contact details below or use the form to the right to send a mess
           <form className="form" onSubmit={sendEmail}>
             <h2>Message me</h2>
             <div>
-              <input type="text" placeholder="Subject" name="subject" />
-              <input type="text" placeholder="Name" name="name" />
+              <input type="text" placeholder="Subject" name="subject" required/>
+              <input type="text" placeholder="Name" name="name" required/>
             </div>
 
             <input type="email" placeholder="Email" name="email" />
@@ -92,6 +92,7 @@ Kindly find my contact details below or use the form to the right to send a mess
               rows="10"
               placeholder="Describe Project"
               name="message"
+    required
             ></textarea>
 
             <input class="btn" type="submit" value="Send a message" />
