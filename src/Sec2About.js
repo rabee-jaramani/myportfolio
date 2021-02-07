@@ -48,7 +48,7 @@ After the war started in my home, I left for Lebanon and worked as IT support. I
         </span>
         <button onClick={this.myFunction} id="myBtn" className='btn-readmore'>Read More</button><br/>
         </p>
-          <a href={RabeeCV} className="btn" download="Rabee Aljaramani Web developer.pdf">
+          <a href={RabeeCV} className="btn" download="Rabee Aljaramani CV.pdf">
             Download CV
           </a>
         </div>
