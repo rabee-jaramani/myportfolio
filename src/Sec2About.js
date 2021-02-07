@@ -1,6 +1,6 @@
 import React from "react";
 import bg from "./images/bg.png";
-import RabeeCV from './CV/Rabee Aljaramani Web developer.pdf';
+import RabeeCV from './CV/Rabee Aljaramani CV.pdf';
 class Sec2About extends React.Component {
   constructor(props) {
     super(props);
