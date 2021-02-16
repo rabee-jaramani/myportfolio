@@ -9,18 +9,14 @@ function Sec1Header() {
           <div className="logo">
             <img className='imglogo' src={logo} alt='/' />
 
-            {/* <h1>
-              LOGO<span>.</span>
-            </h1> */}
+
           </div>
 
           <div className="menu">
             <div className="top-nav">
               <div className="logo">
                 <img className='imglogo' src={logo} alt='/' />
-                {/* <h1>
-                  LOGO<span>.</span>
-                </h1> */}
+
               </div>
               <div className="close">
                 <i className="fas fa-times"></i>
@@ -66,7 +62,7 @@ function Sec1Header() {
           </div>
         </div>
       </nav>
-      {/* hero */}
+
       <div className="hero">
         <h3>Hello, my name is</h3>
         <h1>Rabee Aljaramani</h1>

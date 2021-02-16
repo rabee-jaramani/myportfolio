@@ -20,7 +20,7 @@ class App extends React.Component {
   }
   componentDidMount() {
     AOS.init();
-    
+
     const menu = document.querySelector(".menu");
     const navOpen = document.querySelector(".hamburger");
     const navClose = document.querySelector(".close");
@@ -54,27 +54,6 @@ class App extends React.Component {
       }
     });
 
-    // Scroll To
-    const links = [...document.querySelectorAll(".scroll-link")];
-    links.map((link) => {
-      link.addEventListener("click", (e) => {
-        e.preventDefault();
-
-        const id = e.target.getAttribute("href").slice(1);
-        const element = document.getElementById(id);
-        //const fixNav = navBar.classList.contains("fix-nav");
-        let position = element.offsetTop - navHeight;
-
-        window.scrollTo({
-          top: position,
-          left: 0
-        });
-
-        navBar.classList.remove("show");
-        menu.classList.remove("show");
-        document.body.classList.remove("show");
-      });
-    });
 
     new TypeIt("#type1", {
       speed: 120,
@@ -123,7 +102,7 @@ class App extends React.Component {
       x: -30,
       stagger: 0.2
     });
-    
+
     const glide = document.querySelector(".glide");
     if (glide)
       new Glide(glide, {
@@ -145,7 +124,7 @@ class App extends React.Component {
         }
       }).mount();
   }
-  componentDidUpdate() {}
+  componentDidUpdate() { }
   render() {
     return (
       <>
