@@ -2,6 +2,12 @@ import React from "react";
 import bg from "./images/bg.png";
 import logo from './images/logo.png'
 function Sec1Header() {
+  function close_menue() {
+    const menu = document.querySelector('.menu').classList.remove('show');
+    const navBar = document.querySelector(".nav");
+    document.body.classList.remove("show");
+    navBar.classList.remove("show");
+  }
   return (
     <header id="home" className="header">
       <nav className="nav">
@@ -12,7 +18,7 @@ function Sec1Header() {
 
           </div>
 
-          <div className="menu">
+          <div className="menu" onClick={close_menue}>
             <div className="top-nav">
               <div className="logo">
                 <img className='imglogo' src={logo} alt='/' />
@@ -25,32 +31,32 @@ function Sec1Header() {
 
             <ul className="nav-list">
               <li className="nav-item">
-                <a href="#home" className="nav-link scroll-link">
+                <a href="#home" className="nav-link">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#about" className="nav-link scroll-link">
+                <a href="#about" className="nav-link">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#services" className="nav-link scroll-link">
+                <a href="#services" className="nav-link">
                   Services
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#skills" className="nav-link scroll-link">
+                <a href="#skills" className="nav-link">
                   Skills
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#teams" className="nav-link scroll-link">
+                <a href="#teams" className="nav-link">
                   Teams
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#contact" className="nav-link scroll-link">
+                <a href="#contact" className="nav-link">
                   Contact
                 </a>
               </li>
