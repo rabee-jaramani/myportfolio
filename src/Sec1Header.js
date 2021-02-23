@@ -3,7 +3,7 @@ import bg from "./images/bg.png";
 import logo from './images/logo.png'
 function Sec1Header() {
   function close_menue() {
-    const menu = document.querySelector('.menu').classList.remove('show');
+    document.querySelector('.menu').classList.remove('show');
     const navBar = document.querySelector(".nav");
     document.body.classList.remove("show");
     navBar.classList.remove("show");
@@ -84,22 +84,24 @@ function Sec1Header() {
         <span>
           <a className="fab fa-linkedin"
             href='https://www.linkedin.com/in/rabee-aljaramani-4b005b193/'
-            target="_blank"></a>
+            target="_blank" rel="noreferrer">{''}</a>
         </span>
         <span>
           <a className="fab fa-facebook-f"
             href='https://www.facebook.com/rabee1988/'
-            target='_blank'></a>
+            target='_blank'
+            rel="noreferrer"
+            >{''}</a>
         </span>
         <span>
           <a className="fab fa-instagram"
             href='https://www.instagram.com/r_a_b_e_e__/'
-            target='_blank'></a>
+            target='_blank' rel="noreferrer">{''}</a>
         </span>
         <span>
           <a className="fab fa-github"
             href='https://github.com/rabeexxxx'
-            target='_blank'></a>
+            target='_blank' rel="noreferrer">{''}</a>
         </span>
       </div>
     </header>
