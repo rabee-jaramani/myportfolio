@@ -1,12 +1,12 @@
 import React from "react";
-import prof1 from "./images/profile1.jpg";
-import prof2 from "./images/profile2.jpg";
-import prof3 from "./images/profile3.jpg";
+import prof1 from "./images/proj1.png";
+import prof2 from "./images/proj2.png";
+import prof3 from "./images/proj3.png";
 function Sec5Team() {
   return (
     <section className="section theme" id="teams">
       <div className="title">
-        <h1>My teams</h1>
+        <h1>My Projects</h1>
       </div>
 
       <div className="teams-center container">
@@ -16,12 +16,11 @@ function Sec5Team() {
               <li className="glide__slide">
                 <div className="team">
                   <div className="img-cover">
-                    <img src={prof1} alt="" />
+                    <img src={prof1} alt=""/>
                   </div>
-                  <h3>Someone name</h3>
+                  <h3>E-commerce website</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Libero, quo?
+                    e-commerce for selling clothes online, I used React Redux and nodejs for backend
                   </p>
                 </div>
               </li>
@@ -30,10 +29,9 @@ function Sec5Team() {
                   <div className="img-cover">
                     <img src={prof2} alt="" />
                   </div>
-                  <h3>Someone name</h3>
+                  <h3>Rose Shop</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Libero, quo?
+                    Online rose shop to sell roses and make events, it is a tamplate for e-commerce website
                   </p>
                 </div>
               </li>
@@ -42,10 +40,9 @@ function Sec5Team() {
                   <div className="img-cover">
                     <img src={prof3} alt="" />
                   </div>
-                  <h3>Someone name</h3>
+                  <h3>Construction Company</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Libero, quo?
+                    Website for construction company with many services.
                   </p>
                 </div>
               </li>

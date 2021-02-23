@@ -95,7 +95,7 @@ Kindly find my contact details below or use the form to the right to send a mess
     required
             ></textarea>
 
-            <input class="btn" type="submit" value="Send a message" />
+            <input className="btn" type="submit" value="Send a message" />
           </form>
         </div>
       </div>
