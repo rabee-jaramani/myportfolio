@@ -13,7 +13,9 @@ function Sec5Team() {
         <div className="glide">
           <div className="glide__track" data-glide-el="track">
             <ul className="glide__slides">
+            <a target='_blank' rel="noreferrer" href='https://e-star-x.herokuapp.com/' >
               <li className="glide__slide">
+               
                 <div className="team">
                   <div className="img-cover">
                     <img src={prof1} alt=""/>
@@ -23,7 +25,10 @@ function Sec5Team() {
                     e-commerce for selling clothes online, I used React Redux and nodejs for backend
                   </p>
                 </div>
+               
               </li>
+              </a>
+              <a target='_blank' rel="noreferrer" href='https://rose-shop.netlify.app/' >
               <li className="glide__slide">
                 <div className="team">
                   <div className="img-cover">
@@ -31,10 +36,12 @@ function Sec5Team() {
                   </div>
                   <h3>Rose Shop</h3>
                   <p>
-                    Online rose shop to sell roses and make events, it is a tamplate for e-commerce website
+                    Online rose shop to sell roses and make events, it is a template for e-commerce website
                   </p>
                 </div>
               </li>
+              </a>
+              <a target='_blank' rel="noreferrer" href='https://construction--company.herokuapp.com/' >
               <li className="glide__slide">
                 <div className="team">
                   <div className="img-cover">
@@ -46,6 +53,7 @@ function Sec5Team() {
                   </p>
                 </div>
               </li>
+              </a>
             </ul>
           </div>
         </div>
