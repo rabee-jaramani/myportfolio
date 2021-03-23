@@ -52,7 +52,7 @@ function Sec1Header() {
               </li>
               <li className="nav-item">
                 <a href="#teams" className="nav-link">
-                  Teams
+                  Projects
                 </a>
               </li>
               <li className="nav-item">
