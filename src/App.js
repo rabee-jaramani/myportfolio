@@ -60,10 +60,10 @@ class App extends React.Component {
       loop: true,
       waitUntilVisible: true
     })
-      .type("a Developer", { delay: 400 })
+      .type("a FrontEnd Developer", { delay: 400 })
       .pause(500)
-      .delete(11)
-      .type("an IT Engineer", { delay: 400 })
+      .delete(19)
+      .type(" Web Developer", { delay: 400 })
       .pause(500)
       .delete(14)
       .go();
@@ -73,10 +73,10 @@ class App extends React.Component {
       loop: true,
       waitUntilVisible: true
     })
-      .type("a Developer", { delay: 400 })
+      .type("a FrontEnd Developer", { delay: 400 })
       .pause(500)
-      .delete(11)
-      .type("an IT Engineer", { delay: 400 })
+      .delete(19)
+      .type(" Web Developer", { delay: 400 })
       .pause(500)
       .delete(14)
       .go();

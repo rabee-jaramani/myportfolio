@@ -2,6 +2,8 @@ import React from "react";
 import prof1 from "./images/proj1.png";
 import prof2 from "./images/proj2.png";
 import prof3 from "./images/proj3.png";
+import prof4 from "./images/proj4.png";
+
 function Sec5Team() {
   return (
     <section className="section theme" id="teams">
@@ -41,6 +43,22 @@ function Sec5Team() {
                 </div>
               </li>
               </a>
+
+
+              <a target='_blank' rel="noreferrer" href='https://beirut-lounge.netlify.app/' >
+              <li className="glide__slide">
+                <div className="team">
+                  <div className="img-cover">
+                    <img src={prof4} alt="" />
+                  </div>
+                  <h3>Cafe and Restaurant</h3>
+                  <p>
+                  Beirut Lounge 
+                  </p>
+                </div>
+              </li>
+              </a>
+
               <a target='_blank' rel="noreferrer" href='https://construction--company.herokuapp.com/' >
               <li className="glide__slide">
                 <div className="team">
