@@ -10,8 +10,8 @@ import AOS from 'aos';
 import TypeIt from 'typeit'
 import gsap from 'gsap'
 import Glide from '@glidejs/glide'
-
 import "./styles.css";
+import ReactGA from 'react-ga';
 
 class App extends React.Component {
   constructor(props) {
@@ -19,6 +19,9 @@ class App extends React.Component {
     this.state = {};
   }
   componentDidMount() {
+    ReactGA.initialize("G-NZ2ZPB7SWR")
+    ReactGA.pageview('/')
+  
     AOS.init();
 
     const menu = document.querySelector(".menu");
@@ -124,6 +127,9 @@ class App extends React.Component {
           }
         }
       }).mount();
+
+
+
   }
   componentDidUpdate() { }
   render() {
