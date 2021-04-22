@@ -19,7 +19,8 @@ class App extends React.Component {
     this.state = {};
   }
   componentDidMount() {
-    ReactGA.initialize('G-NZ2ZPB7SWR')
+    ReactGA.initialize('NZ2ZPB7SWR')
+    
     ReactGA.pageview('/')
   
     AOS.init();
