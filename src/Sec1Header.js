@@ -1,7 +1,7 @@
 import React from "react";
 import bg from "./images/bg.png";
 import logo from './images/logo.png'
-function Sec1Header() {
+function Sec1Header(props) {
   function close_menue() {
     document.querySelector('.menu').classList.remove('show');
     const navBar = document.querySelector(".nav");
@@ -76,7 +76,14 @@ function Sec1Header() {
           And I'm <span id="type1"></span>
         </h4>
         <a href="#contact">Hire me</a>
+        <div className='visitors'>
+        Portfolio Visitors: 
+        <div>{" "+props.visitors}</div> 
+        
+        <hr className='hr'/>
       </div>
+      </div>
+      
 
       <img className="banner img1" src={bg} alt="" />
 

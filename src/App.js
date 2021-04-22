@@ -16,11 +16,17 @@ import countapi from 'countapi-js';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      visitors:''
+    };
   }
   componentDidMount() {
     countapi.visits().then((result) => {
-      console.log(result.value);
+      var s=result.value;
+      console.log(s)
+      this.setState({
+      visitors:s
+      })
   });
   
     AOS.init();
@@ -92,6 +98,8 @@ class App extends React.Component {
     gsap.from(".hero h1", { opacity: 0, duration: 1, delay: 2.5, y: -45 });
     gsap.from(".hero h4", { opacity: 0, duration: 1, delay: 3, y: -30 });
     gsap.from(".hero a", { opacity: 0, duration: 1, delay: 3.5, y: 50 });
+    gsap.from(".hero .visitors", { opacity: 0, duration: 1, delay: 4, y: 60 });
+    gsap.from(".hero hr", { opacity: 0, duration: 1, delay: 4.5, x: -160 });
 
     gsap.from(".nav-item", {
       opacity: 0,
@@ -136,7 +144,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Sec1Header />
+        <Sec1Header visitors={this.state.visitors}/>
         <Sec2About />
         <Sec3Services />
         <Sec4Skills />

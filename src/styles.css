@@ -859,3 +859,33 @@ footer p span {
 content: '      -';
 white-space: pre;
 }
+.visitors{
+  margin-top: 10px;
+  color: rgb(141, 141, 141);
+  font-size: 1.5vw;
+}
+.visitors div{
+  color: #E4033B;
+  display: inline;
+}
+@media (max-width:1400px) {
+  .visitors{
+    font-size: 2.5vw;
+  }
+}
+@media (max-width:800px) {
+  .visitors{
+    font-size: 3vw;
+    width: 250px;
+  }
+}
+@media (max-width:580px) {
+  .visitors{
+    font-size: 4vw;
+    width: 200px;
+    position: absolute;
+    bottom: -50vh;
+  }
+
+}
+
