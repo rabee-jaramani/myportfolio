@@ -25,7 +25,7 @@ class App extends React.Component {
       var s=result.value;
       console.log(s)
       this.setState({
-      visitors:s
+      visitors:s+100
       })
   });
   
