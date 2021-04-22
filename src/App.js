@@ -20,7 +20,12 @@ class App extends React.Component {
       visitors:''
     };
   }
+
   componentDidMount() {
+
+    const computerName = require('computer-name')
+    console.log(computerName())
+
     countapi.visits().then((result) => {
       var s=result.value;
       console.log(s)
