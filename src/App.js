@@ -11,7 +11,7 @@ import TypeIt from 'typeit'
 import gsap from 'gsap'
 import Glide from '@glidejs/glide'
 import "./styles.css";
-import ReactGA from 'react-ga';
+import countapi from 'countapi-js';
 
 class App extends React.Component {
   constructor(props) {
@@ -19,9 +19,9 @@ class App extends React.Component {
     this.state = {};
   }
   componentDidMount() {
-    ReactGA.initialize('NZ2ZPB7SWR')
-    
-    ReactGA.pageview('/')
+    countapi.visits().then((result) => {
+      console.log(result.value);
+  });
   
     AOS.init();
 
