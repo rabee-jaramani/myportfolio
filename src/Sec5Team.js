@@ -3,6 +3,8 @@ import prof1 from "./images/proj1.png";
 import prof2 from "./images/proj2.png";
 import prof3 from "./images/proj3.png";
 import prof4 from "./images/proj4.png";
+import prof5 from "./images/wordpress_portfolio.png"
+import prof6 from "./images/travel_agency.png"
 
 function Sec5Team() {
   return (
@@ -24,7 +26,7 @@ function Sec5Team() {
                   </div>
                   <h3>E-commerce website</h3>
                   <p>
-                    e-commerce for selling clothes online, I used React Redux and nodejs for backend
+                  Using React, Redux, CSS and JavaScript
                   </p>
                 </div>
                
@@ -38,12 +40,39 @@ function Sec5Team() {
                   </div>
                   <h3>Rose Shop</h3>
                   <p>
-                    Online rose shop to sell roses and make events, it is a template for e-commerce website
+                  Using React, CSS and JavaScript
                   </p>
                 </div>
               </li>
               </a>
 
+              <a target='_blank' rel="noreferrer" href='https://rose-shop.netlify.app/' >
+              <li className="glide__slide">
+                <div className="team">
+                  <div className="img-cover">
+                    <img src={prof5} alt="" />
+                  </div>
+                  <h3>WordPress Portfolio</h3>
+                  <p>
+                  Using Elementor Editor
+                  </p>
+                </div>
+              </li>
+              </a>
+
+              <a target='_blank' rel="noreferrer" href='https://fastech-travelagency.netlify.app/' >
+              <li className="glide__slide">
+                <div className="team">
+                  <div className="img-cover">
+                    <img src={prof6} alt="" />
+                  </div>
+                  <h3>Travel Agency</h3>
+                  <p>
+                  Using React, CSS and JavaScript
+                  </p>
+                </div>
+              </li>
+              </a>
 
               <a target='_blank' rel="noreferrer" href='https://beirut-lounge.netlify.app/' >
               <li className="glide__slide">
@@ -53,7 +82,7 @@ function Sec5Team() {
                   </div>
                   <h3>Cafe and Restaurant</h3>
                   <p>
-                  Beirut Lounge 
+                  Using React, SASS and JavaScript
                   </p>
                 </div>
               </li>
