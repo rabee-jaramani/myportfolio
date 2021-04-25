@@ -96,7 +96,7 @@ function Sec5Team() {
                   </div>
                   <h3>Construction Company</h3>
                   <p>
-                    Website for construction company with many services.
+                  Using React, CSS and JavaScript.
                   </p>
                 </div>
               </li>
