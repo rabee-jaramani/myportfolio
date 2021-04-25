@@ -59,7 +59,7 @@ function Sec5Team() {
               </li>
               </a>
 
-              <a target='_blank' rel="noreferrer" href='https://construction--company.herokuapp.com/' >
+              <a target='_blank' rel="noreferrer" href='https://cc-llc.netlify.app/' >
               <li className="glide__slide">
                 <div className="team">
                   <div className="img-cover">
