@@ -1,62 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- for featured section on linkedin -->
+    <meta name="description" content="Using React, CSS, JavaScript and GSAP" />
+    <meta name="title" property="og:title" content="Rabee Portfolio" />
+    <meta property="og:type" content="Portfolio" />
+    <meta
+      name="image"
+      property="og:image"
+      content="https://rabee.netlify.app/static/media/bg.42e27721.png"
+    />
+    <meta
+      name="description"
+      property="og:description"
+      content="Rabee Portfolio"
+    />
+    <meta name="author" content="Rabee Aljaramani" />
+    <!-- ////////////////////////// -->
 
-       <!-- for featured section on linkedin -->
-       <meta name="description" content="Using React, CSS, JavaScript and GSAP"/>
-       <meta name="title" property="og:title" content="Rabee Portfolio"/>
-       <meta property="og:type" content="Portfolio"/>
-       <meta 
-       name="image"
-       property="og:image"
-       content="data:image/png;base64,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"
-       />
-       <meta
-       name="description"
-       property="og:description"
-       content="Rabee Portfolio"
-       />
-       <meta
-       name="author"
-       content="Rabee Aljaramani"
-       />
-       <!-- ////////////////////////// -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../src/images/favicon.ico"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <!-- AOS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <!-- Glidejs -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"
+    />
 
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Rabee Portfolio</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap");
+    </style>
+  </head>
 
-  <link rel="shortcut icon" type="image/x-icon" href="../src/images/favicon.ico" />
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-  <!-- AOS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-  <!-- Glidejs -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css" />
+  <body>
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <div id="root"></div>
 
-  <!-- Custom StyleSheet -->
-  <link rel="stylesheet" href="styles.css" />
-  <title>Rabee Portfolio</title>
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap");
-  </style>
-</head>
-
-<body>
-  <noscript>
-    You need to enable JavaScript to run this app.
-  </noscript>
-  <div id="root"></div>
-
-  <!-- AOS -->
-  <!-- <script src="../src/JS/aos.js"></script> -->
-  <!-- Typeit -->
-  <!-- <script src="../src/JS/typeit.min.js"></script> -->
-  <!-- GSAP -->
-  <!-- <script src="../src/JS/gsap.min.js"></script> -->
-  <!-- Glidejs -->
-  <!-- <script src="../src/JS/glide.min.js"></script> -->
-
-</body>
-
+    <!-- AOS -->
+    <!-- <script src="../src/JS/aos.js"></script> -->
+    <!-- Typeit -->
+    <!-- <script src="../src/JS/typeit.min.js"></script> -->
+    <!-- GSAP -->
+    <!-- <script src="../src/JS/gsap.min.js"></script> -->
+    <!-- Glidejs -->
+    <!-- <script src="../src/JS/glide.min.js"></script> -->
+  </body>
 </html>
